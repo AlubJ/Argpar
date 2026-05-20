@@ -5,8 +5,8 @@
   "isDnD":false,
   "name":"__ArgparConfig",
   "parent":{
-    "name":"(System)",
-    "path":"folders/Argpar/(System).yy",
+    "name":"Argpar",
+    "path":"folders/Argpar.yy",
   },
   "resourceType":"GMScript",
   "resourceVersion":"2.0",
