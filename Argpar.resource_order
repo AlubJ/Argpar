@@ -1,0 +1,19 @@
+{
+  "FolderOrderSettings":[
+    {"name":"Argpar","order":1,"path":"folders/Argpar.yy",},
+    {"name":"(System)","order":1,"path":"folders/Argpar/(System).yy",},
+  ],
+  "ResourceOrderSettings":[
+    {"name":"Object1","order":2,"path":"objects/Object1/Object1.yy",},
+    {"name":"__ArgparApplyDefaults","order":7,"path":"scripts/__ArgparApplyDefaults/__ArgparApplyDefaults.yy",},
+    {"name":"__ArgparConfig","order":2,"path":"scripts/__ArgparConfig/__ArgparConfig.yy",},
+    {"name":"__ArgparConstants","order":1,"path":"scripts/__ArgparConstants/__ArgparConstants.yy",},
+    {"name":"__ArgparError","order":4,"path":"scripts/__ArgparError/__ArgparError.yy",},
+    {"name":"__ArgparFindParam","order":6,"path":"scripts/__ArgparFindParam/__ArgparFindParam.yy",},
+    {"name":"__ArgparTrace","order":3,"path":"scripts/__ArgparTrace/__ArgparTrace.yy",},
+    {"name":"__ArgparWarn","order":5,"path":"scripts/__ArgparWarn/__ArgparWarn.yy",},
+    {"name":"ArgparGet","order":4,"path":"scripts/ArgparGet/ArgparGet.yy",},
+    {"name":"ArgparParse","order":3,"path":"scripts/ArgparParse/ArgparParse.yy",},
+    {"name":"ArgparRegister","order":2,"path":"scripts/ArgparRegister/ArgparRegister.yy",},
+  ],
+}
