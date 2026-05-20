@@ -18,6 +18,16 @@ function ArgparParse()
             
             if (!string_starts_with(_token, ARGPAR_PARAMETER_PREFIX))
             {
+                var _positional = __ArgparFindParam("default");
+                
+                if (!is_undefined(_positional))
+                {
+                    __parsedParameters[$ _positional.name] = _token;
+                    
+                    _i++;
+                    continue;
+                }
+                
                 __ArgparTrace($"Unknown parameter \"{_token}\"");
                 _i++;
                 continue;
@@ -62,15 +72,15 @@ function ArgparParse()
             
             if (array_length(_values) == 0)
             {
-                _system.__parsedParameters[$ _param.name] = true;
+                __parsedParameters[$ _param.name] = true;
             }
             else if (array_length(_values) == 1)
             {
-                _system.__parsedParameters[$ _param.name] = _values[0];
+                __parsedParameters[$ _param.name] = _values[0];
             }
             else
             {
-                _system.__parsedParameters[$ _param.name] = _values;
+                __parsedParameters[$ _param.name] = _values;
             }
             
             _i++;

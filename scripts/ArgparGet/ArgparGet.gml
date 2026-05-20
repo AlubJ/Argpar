@@ -4,7 +4,7 @@
 /// Returns back the parsed parameter.
 ///
 /// @param {String} name The name of the parameter.
-function ArgparGet(_name)
+function ArgparGet(_name = "")
 {
     static _system = __ArgparSystem();
     

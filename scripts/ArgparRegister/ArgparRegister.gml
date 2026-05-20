@@ -41,10 +41,7 @@ function ArgparRegister(_name, _aliases = [  ], _types = [  ], _default = [  ])
         if (array_length(_types) > 0)
         {
             if (array_any(_types, function (_value, _index) {
-                if (_value != ty_real && _value != ty_string && _value != undefined)
-                {
-                    return true;
-                }
+                return (_value != ty_real && _value != ty_string && _value != undefined);
             }))
             {
                 __ArgparError("`types` parameter can only contain `ty_string`, `ty_real`, `undefined`.");
