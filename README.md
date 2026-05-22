@@ -1,6 +1,6 @@
 <h1 align="center">Argpar 1.0.0</h1>
 
-<p align="center">Command line argument parser for GameMaker 2024.14 by <a href="https://alub.dev/" target="_blank">Alun Jones</a>.</p>
+<p align="center">Command line argument parser for GameMaker LTS2026 by <a href="https://alub.dev/" target="_blank">Alun Jones</a>.</p>
 
 <!---------------------------------[ Buttons ]---------------------------------->
 
@@ -27,7 +27,7 @@
 
 ---
 
-Argpar is a command line argument parser for GameMaker 2024.14, and can parse arguments passed in through the command line or through the `game_change()` function.
+Argpar is a command line argument parser for GameMaker LTS2026, and can parse arguments passed in through the command line or through the `game_change()` function.
 
 # How do I use this?
 Easy! Firstly, import the `.yymps` file into your project and include all files. From there you can start using the functions. You should register all the command parameters before your game runs, either through the create event of your initialisation object or through a startup script.
@@ -88,6 +88,10 @@ ArgparParse();
 #### **Description**
 
 This function will get the parsed arguments from the parameters passed in.
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| `name` | `String` | The name identification for the parameter to get. |
 
 #### **Example**
 
