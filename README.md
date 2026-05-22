@@ -1,4 +1,4 @@
-<h1 align="center">Argpar 1.0.0</h1>
+<h1 align="center">Argpar 1.1.0</h1>
 
 <p align="center">Command line argument parser for GameMaker LTS2026 by <a href="https://alub.dev/" target="_blank">Alun Jones</a>.</p>
 
