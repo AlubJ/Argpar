@@ -8,7 +8,8 @@ function __ArgparFindParam(_token)
     {
         var _names = variable_struct_get_names(__parameters);
         
-        for (var _i = 0; _i < array_length(_names); _i++)
+        var _i = 0;
+        repeat(array_length(_names))
         {
             var _param = __parameters[$ _names[_i]];
             
@@ -16,6 +17,8 @@ function __ArgparFindParam(_token)
             {
                 return _param;
             }
+            
+            _i++;
         }
     }
     

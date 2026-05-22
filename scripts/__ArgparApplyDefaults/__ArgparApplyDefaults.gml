@@ -8,7 +8,8 @@ function __ArgparApplyDefaults()
     {
         var _keys = variable_struct_get_names(__parameters);
         
-        for (var _i = 0; _i < array_length(_keys); _i++)
+        var _i = 0;
+        repeat (array_length(_keys))
         {
             var _param = __parameters[$ _keys[_i]];
             
@@ -40,6 +41,8 @@ function __ArgparApplyDefaults()
             {
                 __parsedParameters[$ _name] = _defaults;
             }
+            
+            _i++
         }
     }
 }
